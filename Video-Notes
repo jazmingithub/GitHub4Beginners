@@ -1,0 +1,32 @@
+#Getting Started 
+#1. Get a list all files in location on mac 
+ls 
+#Window's list all files in location
+dir 
+#2. Change locatio t desktop
+cd desktop
+#3. Create a copy of repository. You will see the folder on your desktop 
+git clone URL #of master repository 
+#FYI: To move up one level of folders 
+cd .. 
+
+
+#Manually add to Github 
+#1. Once inside github folder get the status of the files inside repository 
+cd github-folder
+git status 
+#2. Add files to repsitory 
+git add filename.html #for one fill 
+git add -! #for all files 
+#3. Commit with comment 
+git commit -m "describe changes made" 
+#4. push changes
+git push 
+  
+#see all the latest changed made to the repository 
+cd github-folder
+git pull
+
+
+
+
