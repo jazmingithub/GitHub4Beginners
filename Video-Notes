@@ -1,30 +1,32 @@
-#Getting Started 
-#1. Get a list all files in location on mac 
-ls 
-#Window's list all files in location
+#Getting Started
+This video describes how to clone, add, commit, push and pull in windows shell
+#A. Get a Copy of repository from Gitbub 
+Before copying the respository onto your local computer, first navigate to the loaction on your local computer where the copy of the repository will be stored
+On Window's, this bash command returns a lists all files and subdirectories contained in a specific directory
 dir 
-#2. Change locatio t desktop
+  Bash commands are native to shell and allow you to navigate 
+1. Change location to desktop (or wherever the respository will be stored). 
 cd desktop
-#3. Create a copy of repository. You will see the folder on your desktop 
-git clone URL #of master repository 
-#FYI: To move up one level of folders 
+If you need to move up one level of folders 
 cd .. 
-
-
-#Manually add to Github 
-#1. Once inside github folder get the status of the files inside repository 
-cd github-folder
+2. Create a copy of the master repository with GitHub link. The folder will show up on your desktop. 
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY 
+Once inside your GitHub folder, the first thing you should do is get the status of the files
+cd github-foldername
 git status 
-#2. Add files to repsitory 
+
+#B. Manually add to Github 
+After making modification to file and you are ready to merge updates with master file with 3 steps:   
+1. Add file to staging area 
 git add filename.html #for one fill 
-git add -! #for all files 
-#3. Commit with comment 
+git add -a #for all files 
+#3. Commit with comment. 
 git commit -m "describe changes made" 
 #4. push changes
 git push 
   
 #see all the latest changed made to the repository 
-cd github-folder
+cd github-foldername
 git pull
 
 
