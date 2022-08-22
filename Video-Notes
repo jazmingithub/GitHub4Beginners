@@ -2,9 +2,8 @@
 This video describes how to clone, add, commit, push and pull in windows shell
 #A. Get a Copy of repository from Gitbub 
 Before copying the respository onto your local computer, first navigate to the loaction on your local computer where the copy of the repository will be stored
-On Window's, this bash command returns a lists all files and subdirectories contained in a specific directory
+On Window's, this command returns a lists all files and subdirectories contained in a specific directory
 dir 
-  Bash commands are native to shell and allow you to navigate 
 1. Change location to desktop (or wherever the respository will be stored). 
 cd desktop
 If you need to move up one level of folders 
